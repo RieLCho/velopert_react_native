@@ -1,12 +1,19 @@
-import * as React from 'react';
-import {SafeAreaView, View, Text} from 'react-native';
-import Box from './components/Box';
-import Greeting from './components/Greeting';
+import React, {useState} from 'react';
+import {SafeAreaView, StyleSheet} from 'react-native';
+import Counter from './components/Counter';
 
-export default function App(){
+const App = () => {
+    const styles = StyleSheet.create({
+        full: {
+            flex: 1,
+        },
+    });
+    
     return (
-        <SafeAreaView>
-            <Box />
-        </SafeAreaView>
+       <SafeAreaView style={styles.full}>
+           <Counter />
+       </SafeAreaView> 
     )
 }
+
+export default App;

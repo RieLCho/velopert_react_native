@@ -11,12 +11,42 @@ const classes = StyleSheet.create({
         height: 64,
         backgroundColor: 'black',
     },
+    rounded: {
+        borderRadius: 16,
+    },
+    small:{
+        width:32,
+        height:32,
+    },
+    medium:{
+        width:64,
+        height:64,
+    },
+    large:{
+        width:128,
+        height:128,
+    },
 });
 
-export default function Box() {
+const sizes ={
+    small: classes.small,
+    medium: classes.medium,
+    large: classes.large,
+};
+
+Box.defaultProps = {
+    size: 'medium',
+    color: 'black',
+}
+
+export default function Box({rounded, size, color}) {
     return (
-    <div style={classes.container}>
-        <View style={classes.box} />
-    </div>
+        <View style={[classes.box,
+            rounded && classes.rounded,
+            sizes[size],
+            {
+                backgroundColor: color,
+            }
+        ]} />
     );
 }
