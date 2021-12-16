@@ -28,7 +28,7 @@ export default function TodoList({todos, onToggle, onRemove}:any) {
                     onRemove={onRemove} 
                 />
             )}
-            keyExtractor={item => item.id.toString()}
+            keyExtractor={item => item?.id?.toString()}
         >
 
         </FlatList>
