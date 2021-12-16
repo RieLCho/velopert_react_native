@@ -9,6 +9,7 @@ import {
     TouchableOpacity, 
     Platform} 
 from 'react-native';
+import { TodoItemType, TodoProps } from '../App';
 
 const styles = StyleSheet.create({
     block:{
@@ -40,7 +41,7 @@ const styles = StyleSheet.create({
     }
 });
 
-export default function AddTodo(){
+export default function AddTodo({onInsert}:any){
     const [text, setText] = useState('');
     const button = (
         <View style={styles.buttonStyle}>
@@ -48,6 +49,7 @@ export default function AddTodo(){
         </View>
     )
     const onPress = () => {
+        onInsert(text);
         setText('');
         Keyboard.dismiss();
     }
