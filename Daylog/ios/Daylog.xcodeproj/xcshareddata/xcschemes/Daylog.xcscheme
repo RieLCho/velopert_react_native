@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Daylog.app"
-               BlueprintName = "Daylog"
-               ReferencedContainer = "container:Daylog.xcodeproj">
+               BuildableName = "DayLog.app"
+               BlueprintName = "DayLog"
+               ReferencedContainer = "container:DayLog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "DaylogTests.xctest"
-               BlueprintName = "DaylogTests"
-               ReferencedContainer = "container:Daylog.xcodeproj">
+               BuildableName = "DayLogTests.xctest"
+               BlueprintName = "DayLogTests"
+               ReferencedContainer = "container:DayLog.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Daylog.app"
-            BlueprintName = "Daylog"
-            ReferencedContainer = "container:Daylog.xcodeproj">
+            BuildableName = "DayLog.app"
+            BlueprintName = "DayLog"
+            ReferencedContainer = "container:DayLog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Daylog.app"
-            BlueprintName = "Daylog"
-            ReferencedContainer = "container:Daylog.xcodeproj">
+            BuildableName = "DayLog.app"
+            BlueprintName = "DayLog"
+            ReferencedContainer = "container:DayLog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
